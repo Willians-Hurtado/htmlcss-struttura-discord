@@ -120,3 +120,20 @@ background-color: #d3d3d3;
     background-color: var(--dis-back-CT);     
 }
 
+/* technology section */
+.tech-contain{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: var(--dis-back-CT); 
+}
+
+.tech{
+    width: 70%;
+    margin: auto; 
+    min-height: 4rem;
+    background-color: var(--dis-bigger-block);
+    height: 15rem;
+}
