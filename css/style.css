@@ -104,7 +104,7 @@ background-color: #d3d3d3;
 }
 
 .small{
-     width: 25%;
+    width: 25%;
     min-height: 4rem;
     background-color: var(--dis-footer-buttons);
     height: 11rem;
@@ -124,7 +124,6 @@ background-color: #d3d3d3;
 .tech-contain{
     display: flex;
     justify-content: center;
-    flex-direction: row-reverse;
     padding-top: 2rem;
     padding-bottom: 2rem;
     background-color: var(--dis-back-CT); 
@@ -137,3 +136,29 @@ background-color: #d3d3d3;
     background-color: var(--dis-bigger-block);
     height: 15rem;
 }
+
+/* last section */
+.last-section{
+    display: flex;
+    justify-content: center;
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;
+    background-color: var(--dis-darker); 
+    border-bottom: 1px solid var(--dis-back-CT);
+}
+
+.main-column{
+    
+height: 10rem;
+    width: 30%;
+    background-color: var(--dis-last-section);
+}
+
+.small-column{
+    height: 10rem;
+    width: 10%;
+    background-color: var(--dis-last-group);
+}
+
+
+
