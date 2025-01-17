@@ -23,8 +23,9 @@
 
 .flex-container{
     width: 70%;
-    margin: auto;
-    display: flex;   
+    max-width: 700px;
+    display: flex;
+    margin: auto;   
 }
 
 /* header menu */
@@ -77,25 +78,28 @@ background-color: #d3d3d3;
     background-color: var(--dis-back-jumbotron);
     padding-top: 2rem;
     padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
 }
 
 .jumbo{
     width: 55%;
-    margin: auto; 
+    max-width: 550px; 
     min-height: 4rem;
     background-color: var(--dis-block-jumbotron);
     height: 10rem;
 }
 
 /* invite_only section  */
-.flex-contain{
+.flex-contain {
     display: flex;
     justify-content: center;
     padding-top: 2rem;
     padding-bottom: 2rem;     
 }
 
-.big{     
+.big{   
+    max-width: 500px;  
     width: 45%; 
     min-height: 4rem;
     background-color: var(--dis-big-block);
@@ -104,6 +108,7 @@ background-color: #d3d3d3;
 
 .small{
     width: 25%;
+    max-width: 300px;
     min-height: 4rem;
     background-color: var(--dis-footer-buttons);
     height: 11rem;
@@ -112,25 +117,19 @@ background-color: #d3d3d3;
 /* cummunity section*/
 .flex-cont{
     display: flex;
-    justify-content: center;
     flex-direction: row-reverse;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
     background-color: var(--dis-back-CT);     
 }
 
 /* technology section */
 .tech-contain{
     display: flex;
-    justify-content: center;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    background-color: var(--dis-back-CT); 
+    background-color: var(--dis-back-CT);
 }
 
 .tech{
+    max-width: 800px;
     width: 70%;
-    margin: auto; 
     min-height: 4rem;
     background-color: var(--dis-bigger-block);
     height: 15rem;
@@ -139,16 +138,13 @@ background-color: #d3d3d3;
 /* last section */
 .last-section{
     display: flex;
-    justify-content: center;
     padding-top: 0.5rem;
-    padding-bottom: 2rem;
     background-color: var(--dis-darker); 
     border-bottom: 1px solid var(--dis-back-CT);
 }
 
-.main-column{
-    
-height: 10rem;
+.main-column{   
+    height: 10rem;
     width: 30%;
     background-color: var(--dis-last-section);
 }
@@ -169,8 +165,6 @@ height: 10rem;
 
 .bar{
     background-color: var(--dis-footer-bar);
-    width: 70%;
-    margin: auto;
     height: 2rem;
     display: flex;
     align-items: center;
