@@ -70,3 +70,19 @@ background-color: #d3d3d3;
 #logo{
     padding-left: 5px;
 }
+
+/* main */
+/* jumbotron-section */
+.container{
+    background-color: var(--dis-back-jumbotron);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.jumbo{
+    width: 55%;
+    margin: auto; 
+    min-height: 4rem;
+    background-color: var(--dis-block-jumbotron);
+    height: 10rem;
+}
