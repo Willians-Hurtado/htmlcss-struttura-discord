@@ -96,14 +96,14 @@ background-color: #d3d3d3;
     padding-bottom: 2rem;     
 }
 
-.invite{     
+.big{     
     width: 45%; 
     min-height: 4rem;
     background-color: var(--dis-big-block);
     height: 11rem;
 }
 
-.only{
+.small{
      width: 25%;
     min-height: 4rem;
     background-color: var(--dis-footer-buttons);
@@ -119,3 +119,4 @@ background-color: #d3d3d3;
     padding-bottom: 2rem;
     background-color: var(--dis-back-CT);     
 }
+
