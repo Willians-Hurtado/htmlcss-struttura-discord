@@ -23,7 +23,8 @@
 
 .flex-container{
     width: 70%;
-    margin: auto;     
+    margin: auto;
+    display: flex;   
 }
 
 /* header menu */
@@ -85,4 +86,36 @@ background-color: #d3d3d3;
     min-height: 4rem;
     background-color: var(--dis-block-jumbotron);
     height: 10rem;
+}
+
+/* invite_only section  */
+.flex-contain{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;     
+}
+
+.invite{     
+    width: 45%; 
+    min-height: 4rem;
+    background-color: var(--dis-big-block);
+    height: 11rem;
+}
+
+.only{
+     width: 25%;
+    min-height: 4rem;
+    background-color: var(--dis-footer-buttons);
+    height: 11rem;
+}
+
+/* cummunity section*/
+.flex-cont{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: var(--dis-back-CT);     
 }
